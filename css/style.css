@@ -1,0 +1,143 @@
+
+*{
+    list-style: none;
+    text-decoration: none !important;
+    font-family: sans-serif;
+}
+
+#home{
+    background-image: url("../images/1339451.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+
+#slidbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* white-space: nowrap; */
+    /* display: flex; */
+    /* align-items: center; */
+    
+    
+    
+}
+
+#slidbar li a{
+    transition: all 1s;
+    font-size: 2rem;;
+    color: white;
+}
+#slidbar li a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#slidbar .close {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.slidebox{
+    width: 0 ;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.iconforlinks{
+    color: white !important;
+    padding: 5px;
+    top: 40%;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
+#about{
+    margin: 100px auto;
+    width: 50%;
+}
+#about h3{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+#about .world {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+
+}
+#about .fisrt-text{
+    display: block;
+}
+
+
+#lastone .ul  {
+    display: flex;
+    
+  
+
+   
+     
+}
+
+
+#lastone .ul li {
+    margin: 5px;
+   
+}
+#lastone .ul li a {
+    color: black;
+    
+}
+
+
+#lastone .ul li a i {
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+
+#lastone .ul li a i:hover {
+    color: aqua;
+}
+
+
+
+
+#thirdsection{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.374),rgba(255, 0, 0, 0.401)),url("../images/f9d0c717-c77e-4234-9c2e-891e3bc6affd.jfif");
+    background-position: center center;
+    background-size: 100% 100%;
+    min-height: 50vh;
+   
+}
+
+
+/* 
+.col-md-3 {
+    padding-block: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.day {
+    border: 3px solid white;
+    width: 200px;
+    height: 100px;
+    
+}
